@@ -1,0 +1,50 @@
+site_name: Google Docs user guide
+site_author:
+
+nav:
+  - About Google Docs: index.md
+  - Getting started: 
+    - Create document: src/managing/create.md
+    - Manage document access: src/managing/access.md
+    - Manage document settings: src/managing/settings.md
+    - Download document: src/managing/download.md
+    - Print document: src/managing/print.md
+  - Working with content:  
+    - Format text: src/managing/formatting.md
+    - Insert content: src/managing/insert_content.md
+  - Add-ons: src/managing/addons.md
+
+theme:
+  name: material
+  features:
+  - navigation.top
+  - toc.follow
+  - toc.integrate
+  palette:
+    scheme: slate
+    primary: white
+    accent: light blue
+  logo: 'src\img\logo.png'
+  icon:
+    admonition:
+      <type>: <icon>
+  feature:
+
+    tabs: false
+  language: 'en'
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.extra
+  - pymdownx.snippets:
+      base_path: docs/src
+ 
+plugins:
+  - search
+
+extra_css:
+  - 'stylesheets/extra-page-content.css'
+  - 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'

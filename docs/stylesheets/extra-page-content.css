@@ -1,0 +1,80 @@
+/* Fixes page shifts due to scroll bar absence on some pages */ 
+html {
+  overflow-y: scroll;
+}
+
+/* --------------------------
+Headers */
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4, .md-typeset h5  {
+  color:#4285F4;
+  font-weight: 500;
+}
+
+/* Permalinks */
+
+.headerlink:focus, .md-typeset h1[id]:hover .headerlink:hover, .md-typeset h1[id]:target .headerlink {
+  color:#4285F4;
+}
+
+.headerlink:focus, .md-typeset h2[id]:hover .headerlink:hover, .md-typeset h2[id]:target .headerlink {
+  color:#4285F4;
+}
+
+.headerlink:focus, .md-typeset h3[id]:hover .headerlink:hover, .md-typeset h3[id]:target .headerlink {
+  color:#4285F4;
+}
+
+.headerlink:focus, .md-typeset h4[id]:hover .headerlink:hover, .md-typeset h4[id]:target .headerlink {
+  color:#4285F4;
+}
+
+.headerlink:focus, .md-typeset h5[id]:hover .headerlink:hover, .md-typeset h5[id]:target .headerlink {
+  color:#4285F4;
+}
+
+.headerlink:focus, .md-typeset h6[id]:hover .headerlink:hover, .md-typeset h6[id]:target .headerlink {
+  color:#4285F4;
+}
+
+
+
+/* --------------------------
+Buttons */
+
+/* Red button */
+.button--red {
+  padding: 5px 15px; 
+  /* background-color: #BE0712; */
+  /* background-color: #e11931; */
+  border: 1px solid #BE0712;
+  color: #BE0712;
+  cursor: pointer;
+}
+
+.button--red:hover {
+  background-color: #BE0712;
+  color: #ffffff;
+}
+
+/* Gray button */
+
+.button--gray {
+  padding: 5px 15px; 
+  /* background-color: #BE0712; */
+  /* background-color: #e11931; */
+  border: 1px solid #46464d;
+  color: #46464d;
+  cursor: pointer;
+}
+
+.button--gray:hover {
+  background-color: #46464d;
+  color: #ffffff;
+}
+
+/* Buttons 
+-------------------------- */
+
+
+
